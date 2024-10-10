@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('../images/homebackground.jpeg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    position: relative;
+    min-height: 100vh;
+    padding-top: 100px;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(26, 133, 26, 0.8);
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    height: 60px;
+    border-radius: 0 0 15px 15px;
+}
+
+.logo img {
+    height: 60px;
+    margin-right: 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-links li a:hover {
+    color: #333;
+}
+
+.box {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.left {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.left img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.right {
+    flex: 2;
+    text-align: left;
+}
+
+.team-photos {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.team-member {
+    margin: 0 10px;
+    text-align: center;
+}
+
+.team-member img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}
